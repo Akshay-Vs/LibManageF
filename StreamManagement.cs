@@ -2,6 +2,9 @@
 using System.IO;
 using System.Text;
 using System.Text.Json;
+using Newtonsoft.Json;
+using System.Net.Http;
+using System.Threading.Tasks;
 
 namespace Library_Management_System
 {
@@ -103,9 +106,9 @@ namespace Library_Management_System
         public string Write(Customer _json)
         //write json file to desired path
         {
-            string json = JsonSerializer.Serialize(_json);
-            File.WriteAllText(Path, json);
-            return json;
+            //string json = JsonSerializer.Serialize(_json);
+            //File.WriteAllText(Path, json);
+            return "\0";
         }
 
         public string[] Read(string path)
@@ -113,7 +116,7 @@ namespace Library_Management_System
             //Read json file from path
 
             var json = File.ReadAllText(path);
-            Customer? jsonFile = JsonSerializer.Deserialize<Customer>(json);
+            //Customer? jsonFile = JsonSerializer.Deserialize<Customer>(json);
 
             /*string Player = jsonFile.Player;
             string Point = Convert.ToString(jsonFile.Point);
@@ -133,7 +136,7 @@ namespace Library_Management_System
         public int Pages { get; set; }
         public int Availability { get; set; }
 
-        public Book(string title, string author, string publisher, int price, int pages, int availability)
+        public void Add(string title, string author, string publisher, int price, int pages, int availability)
         {
             this.Title = title;
             this.Author = author;
@@ -141,6 +144,8 @@ namespace Library_Management_System
             this.Price = price;
             this.Pages = pages;
             this.Availability = availability;
+
+            //Pust New data to server
         }
 
         public string Get()
@@ -160,6 +165,23 @@ namespace Library_Management_System
             else return $"Element {name} is invalid";
         }
 
+        public static async Task<TypeBook[]> GetBooks(string url)
+        {
+            HttpClient httpClient = new();
+
+            var httpResponseMessage = await httpClient.GetAsync(url);
+            //Read string from the response's content
+            string jsonResponse = await httpResponseMessage.Content.ReadAsStringAsync();
+            //Console.WriteLine(jsonResponse);
+
+            //Deserialize the json Response in to a C# array of type TypeBook
+            TypeBook[] JsonData =  JsonConvert.DeserializeObject<TypeBook[]>(jsonResponse);
+
+            httpClient.Dispose();
+            return JsonData;
+
+        }
+
         public string Formate()
         {
             return " " + ToString().Replace(',', '\n');
@@ -177,8 +199,9 @@ namespace Library_Management_System
     {
         public static Book Serialize(string title, string author, string publisher, int price, int pages, int availability)
         {
-            Book books = new(title, author, publisher, price, pages, availability);
-            return books;
+            Book book = new Book();
+            book.Add(title, author, publisher, price, pages, availability);
+            return book;
         }
 
         public Book AvailableBooks()
