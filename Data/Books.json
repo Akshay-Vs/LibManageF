@@ -1,0 +1,802 @@
+[
+    {
+        "Title": "Rio Sex Comedy",
+        "Author": "Kara Beachamp",
+        "Publisher": "Mertz Group",
+        "Price": "$19.24",
+        "Pages": "3",
+        "Availability": "099"
+    },
+    {
+        "Title": "Bullet",
+        "Author": "Myrvyn Hast",
+        "Publisher": "MacGyver, Feeney and Greenfelder",
+        "Price": "$12.53",
+        "Pages": "0",
+        "Availability": "8706"
+    },
+    {
+        "Title": "Man Who Sleeps, The (Un homme qui dort)",
+        "Author": "Fifine Fahrenbach",
+        "Publisher": "Hermann Group",
+        "Price": "$11.45",
+        "Pages": "62",
+        "Availability": "15343"
+    },
+    {
+        "Title": "Cooler, The",
+        "Author": "Jeralee Van",
+        "Publisher": "Feil LLC",
+        "Price": "$8.74",
+        "Pages": "64",
+        "Availability": "4945"
+    },
+    {
+        "Title": "Very Thought of You, The",
+        "Author": "Roldan Painswick",
+        "Publisher": "Huel Inc",
+        "Price": "$20.42",
+        "Pages": "90",
+        "Availability": "91"
+    },
+    {
+        "Title": "Rebellion (L'ordre et la morale)",
+        "Author": "Guilbert Batiste",
+        "Publisher": "Witting, Baumbach and Harvey",
+        "Price": "$26.22",
+        "Pages": "87",
+        "Availability": "1"
+    },
+    {
+        "Title": "Great White Silence, The",
+        "Author": "Vincents De Cleyne",
+        "Publisher": "Legros-Thiel",
+        "Price": "$31.47",
+        "Pages": "02",
+        "Availability": "8"
+    },
+    {
+        "Title": "Let My Puppets Come",
+        "Author": "Wolfie Gallety",
+        "Publisher": "Parker-Boehm",
+        "Price": "$6.55",
+        "Pages": "2883",
+        "Availability": "5381"
+    },
+    {
+        "Title": "Defenseless",
+        "Author": "Ignaz Haccleton",
+        "Publisher": "Kuphal and Sons",
+        "Price": "$23.40",
+        "Pages": "544",
+        "Availability": "1"
+    },
+    {
+        "Title": "Blackboard Jungle",
+        "Author": "Leone Ceschi",
+        "Publisher": "Goyette and Sons",
+        "Price": "$13.42",
+        "Pages": "552",
+        "Availability": "05"
+    },
+    {
+        "Title": "Backtrack (Catchfire)",
+        "Author": "Llywellyn Craddy",
+        "Publisher": "Rogahn-Ernser",
+        "Price": "$42.11",
+        "Pages": "123",
+        "Availability": "81"
+    },
+    {
+        "Title": "Scent of a Woman",
+        "Author": "Gabby Farrants",
+        "Publisher": "Johnston, Grimes and Crona",
+        "Price": "$23.82",
+        "Pages": "2",
+        "Availability": "7337"
+    },
+    {
+        "Title": "Cherry",
+        "Author": "Hope Alfonzo",
+        "Publisher": "Windler Inc",
+        "Price": "$22.74",
+        "Pages": "83",
+        "Availability": "87"
+    },
+    {
+        "Title": "Don Juan",
+        "Author": "Wallis MacSween",
+        "Publisher": "Vandervort-Swaniawski",
+        "Price": "$41.03",
+        "Pages": "41172",
+        "Availability": "9"
+    },
+    {
+        "Title": "Australia",
+        "Author": "Irma Kalderon",
+        "Publisher": "Beier, Predovic and Lakin",
+        "Price": "$23.17",
+        "Pages": "41",
+        "Availability": "66870"
+    },
+    {
+        "Title": "Nas: Time Is Illmatic",
+        "Author": "Juanita Fruchon",
+        "Publisher": "Kreiger-Quigley",
+        "Price": "$29.42",
+        "Pages": "5469",
+        "Availability": "8"
+    },
+    {
+        "Title": "Manborg",
+        "Author": "Blancha Killbey",
+        "Publisher": "Mante-Stark",
+        "Price": "$27.48",
+        "Pages": "9136",
+        "Availability": "511"
+    },
+    {
+        "Title": "Fan, The",
+        "Author": "Patton Pedwell",
+        "Publisher": "Skiles, Grant and Weissnat",
+        "Price": "$43.04",
+        "Pages": "95",
+        "Availability": "243"
+    },
+    {
+        "Title": "Addiction, The",
+        "Author": "Edi Karleman",
+        "Publisher": "Gerhold, Nikolaus and Kuhic",
+        "Price": "$22.73",
+        "Pages": "59",
+        "Availability": "3220"
+    },
+    {
+        "Title": "Buster Keaton: A Hard Act to Follow",
+        "Author": "Benedetto Westoll",
+        "Publisher": "Johnson, Hyatt and Harber",
+        "Price": "$36.24",
+        "Pages": "77311",
+        "Availability": "85"
+    },
+    {
+        "Title": "Seven-Per-Cent Solution, The",
+        "Author": "Berny Bonnar",
+        "Publisher": "Barrows and Sons",
+        "Price": "$5.85",
+        "Pages": "088",
+        "Availability": "9334"
+    },
+    {
+        "Title": "Haunted Castle",
+        "Author": "Thacher Dredge",
+        "Publisher": "Lang-Hand",
+        "Price": "$22.97",
+        "Pages": "73",
+        "Availability": "2723"
+    },
+    {
+        "Title": "B.F.'s Daughter",
+        "Author": "Westleigh Marryatt",
+        "Publisher": "Feeney-Hoeger",
+        "Price": "$31.09",
+        "Pages": "0",
+        "Availability": "7676"
+    },
+    {
+        "Title": "Hard Rain",
+        "Author": "Hoyt Squelch",
+        "Publisher": "Sporer-Beahan",
+        "Price": "$26.51",
+        "Pages": "0175",
+        "Availability": "3"
+    },
+    {
+        "Title": "Incredible Burt Wonderstone, The",
+        "Author": "Roch Megarrell",
+        "Publisher": "Lebsack, Friesen and Schimmel",
+        "Price": "$14.72",
+        "Pages": "3",
+        "Availability": "51"
+    },
+    {
+        "Title": "Young Goethe in Love",
+        "Author": "Janey Moors",
+        "Publisher": "Kling LLC",
+        "Price": "$39.52",
+        "Pages": "3",
+        "Availability": "171"
+    },
+    {
+        "Title": "Half Light",
+        "Author": "Erskine Shoulders",
+        "Publisher": "Schmitt, Price and Treutel",
+        "Price": "$29.25",
+        "Pages": "92157",
+        "Availability": "98"
+    },
+    {
+        "Title": "Trance",
+        "Author": "Iorgos Mazey",
+        "Publisher": "Jones Group",
+        "Price": "$33.07",
+        "Pages": "0662",
+        "Availability": "17805"
+    },
+    {
+        "Title": "Phone Call from a Stranger",
+        "Author": "Zachery Barnhill",
+        "Publisher": "Sipes and Sons",
+        "Price": "$46.98",
+        "Pages": "72",
+        "Availability": "8423"
+    },
+    {
+        "Title": "Waste Land",
+        "Author": "Sharona Aaron",
+        "Publisher": "Towne and Sons",
+        "Price": "$42.79",
+        "Pages": "08170",
+        "Availability": "1"
+    },
+    {
+        "Title": "Big Bounce, The",
+        "Author": "Helaine Duncklee",
+        "Publisher": "Mann, Jerde and Balistreri",
+        "Price": "$25.07",
+        "Pages": "1765",
+        "Availability": "9"
+    },
+    {
+        "Title": "Welcome Back, Mr. McDonald (Rajio no jikan)",
+        "Author": "Ryun Cock",
+        "Publisher": "Carter Inc",
+        "Price": "$7.65",
+        "Pages": "30",
+        "Availability": "43"
+    },
+    {
+        "Title": "Poison Ivy: New Seduction",
+        "Author": "Britteny Hallmark",
+        "Publisher": "Anderson Inc",
+        "Price": "$39.22",
+        "Pages": "852",
+        "Availability": "99255"
+    },
+    {
+        "Title": "Madagascar Skin",
+        "Author": "Keir Sacks",
+        "Publisher": "Thompson-Gerhold",
+        "Price": "$19.28",
+        "Pages": "7076",
+        "Availability": "899"
+    },
+    {
+        "Title": "Suck",
+        "Author": "Atlante Fernehough",
+        "Publisher": "Bailey-Jones",
+        "Price": "$34.54",
+        "Pages": "5885",
+        "Availability": "56"
+    },
+    {
+        "Title": "Berlin Alexanderplatz",
+        "Author": "Bev Lenden",
+        "Publisher": "McLaughlin LLC",
+        "Price": "$26.10",
+        "Pages": "81773",
+        "Availability": "3208"
+    },
+    {
+        "Title": "Return of the Living Dead 3",
+        "Author": "Oran Wagen",
+        "Publisher": "Hilll-Rogahn",
+        "Price": "$41.76",
+        "Pages": "70",
+        "Availability": "0"
+    },
+    {
+        "Title": "My New Gun",
+        "Author": "Christa Tipling",
+        "Publisher": "Lockman Group",
+        "Price": "$45.39",
+        "Pages": "034",
+        "Availability": "9789"
+    },
+    {
+        "Title": "Soft Skin, The (La peau douce)",
+        "Author": "Gordie Farrier",
+        "Publisher": "Leuschke, Kunze and Schuppe",
+        "Price": "$34.52",
+        "Pages": "78",
+        "Availability": "9397"
+    },
+    {
+        "Title": "Voyage to the Bottom of the Sea",
+        "Author": "Lyon Woodeson",
+        "Publisher": "Shanahan Group",
+        "Price": "$23.44",
+        "Pages": "8",
+        "Availability": "87"
+    },
+    {
+        "Title": "Rumble in the Bronx (Hont faan kui)",
+        "Author": "Gleda Metzing",
+        "Publisher": "Wisozk-Barrows",
+        "Price": "$26.90",
+        "Pages": "16",
+        "Availability": "587"
+    },
+    {
+        "Title": "Madman",
+        "Author": "Lib Anderbrugge",
+        "Publisher": "Schamberger-Gerhold",
+        "Price": "$24.76",
+        "Pages": "237",
+        "Availability": "3"
+    },
+    {
+        "Title": "Stricken (Er komt een vrouw bij de dokter)",
+        "Author": "Shurlocke Martinets",
+        "Publisher": "Sauer, Hills and Auer",
+        "Price": "$25.46",
+        "Pages": "6",
+        "Availability": "49"
+    },
+    {
+        "Title": "Witness for the Prosecution",
+        "Author": "Marcella Hamilton",
+        "Publisher": "Brakus-Raynor",
+        "Price": "$35.66",
+        "Pages": "7311",
+        "Availability": "2"
+    },
+    {
+        "Title": "Good Ol' Freda",
+        "Author": "Ab Longford",
+        "Publisher": "Hartmann, Balistreri and Hoppe",
+        "Price": "$28.35",
+        "Pages": "3",
+        "Availability": "323"
+    },
+    {
+        "Title": "X-Men: Days of Future Past",
+        "Author": "Maible Halhead",
+        "Publisher": "Cassin Inc",
+        "Price": "$23.15",
+        "Pages": "3",
+        "Availability": "3522"
+    },
+    {
+        "Title": "Fear City",
+        "Author": "Ileana Tibols",
+        "Publisher": "Mante and Sons",
+        "Price": "$28.12",
+        "Pages": "490",
+        "Availability": "1"
+    },
+    {
+        "Title": "Finding Normal",
+        "Author": "Cos Myott",
+        "Publisher": "Von-Hegmann",
+        "Price": "$12.43",
+        "Pages": "718",
+        "Availability": "01895"
+    },
+    {
+        "Title": "Torrente, el brazo tonto de la ley",
+        "Author": "Adelind Sturr",
+        "Publisher": "Nader Inc",
+        "Price": "$43.74",
+        "Pages": "35",
+        "Availability": "07155"
+    },
+    {
+        "Title": "Cougars, Inc.",
+        "Author": "Arin Skyme",
+        "Publisher": "Rohan LLC",
+        "Price": "$25.67",
+        "Pages": "5",
+        "Availability": "091"
+    },
+    {
+        "Title": "Our Summer in Provence",
+        "Author": "Shelia Gallard",
+        "Publisher": "Stiedemann, Abernathy and Rogahn",
+        "Price": "$33.52",
+        "Pages": "8639",
+        "Availability": "0804"
+    },
+    {
+        "Title": "Cop Out",
+        "Author": "Neille Warwick",
+        "Publisher": "Pfeffer LLC",
+        "Price": "$6.44",
+        "Pages": "8056",
+        "Availability": "564"
+    },
+    {
+        "Title": "Norbit",
+        "Author": "Edward Eccott",
+        "Publisher": "Yost and Sons",
+        "Price": "$14.77",
+        "Pages": "17",
+        "Availability": "25647"
+    },
+    {
+        "Title": "Emperor's New Groove, The",
+        "Author": "Kylie Doxey",
+        "Publisher": "Hammes, Ratke and Legros",
+        "Price": "$27.49",
+        "Pages": "7",
+        "Availability": "74"
+    },
+    {
+        "Title": "Junior Bonner",
+        "Author": "Star Dobbie",
+        "Publisher": "Wiegand Inc",
+        "Price": "$34.31",
+        "Pages": "40476",
+        "Availability": "435"
+    },
+    {
+        "Title": "Roman",
+        "Author": "Cobby Coaker",
+        "Publisher": "Kilback Inc",
+        "Price": "$39.25",
+        "Pages": "180",
+        "Availability": "9063"
+    },
+    {
+        "Title": "E.T. the Extra-Terrestrial",
+        "Author": "Debera Harhoff",
+        "Publisher": "Tillman-Terry",
+        "Price": "$33.40",
+        "Pages": "2190",
+        "Availability": "5484"
+    },
+    {
+        "Title": "Girl Said No, The",
+        "Author": "Katheryn Beaves",
+        "Publisher": "Donnelly-Brekke",
+        "Price": "$10.47",
+        "Pages": "46",
+        "Availability": "2644"
+    },
+    {
+        "Title": "Then I Sentenced Them All to Death (Atunci i-am condamnat pe toti la moarte)",
+        "Author": "Nessi Lamberts",
+        "Publisher": "Funk, Mayert and Harber",
+        "Price": "$6.24",
+        "Pages": "64",
+        "Availability": "5557"
+    },
+    {
+        "Title": "Uncommon Valor",
+        "Author": "Finn Janosevic",
+        "Publisher": "Rice-Smitham",
+        "Price": "$9.30",
+        "Pages": "039",
+        "Availability": "93457"
+    },
+    {
+        "Title": "Suspect",
+        "Author": "Dickie Vercruysse",
+        "Publisher": "Sawayn Group",
+        "Price": "$48.12",
+        "Pages": "8410",
+        "Availability": "45062"
+    },
+    {
+        "Title": "Anchors Aweigh",
+        "Author": "Dorrie Enderle",
+        "Publisher": "McLaughlin, Christiansen and Hermiston",
+        "Price": "$43.11",
+        "Pages": "52942",
+        "Availability": "5236"
+    },
+    {
+        "Title": "Skin Deep",
+        "Author": "Frances Canton",
+        "Publisher": "Osinski-Vandervort",
+        "Price": "$45.93",
+        "Pages": "43518",
+        "Availability": "2"
+    },
+    {
+        "Title": "Pekka ja Pätkä lumimiehen jäljillä",
+        "Author": "Kris Donan",
+        "Publisher": "Price and Sons",
+        "Price": "$42.53",
+        "Pages": "709",
+        "Availability": "55193"
+    },
+    {
+        "Title": "Wood & Stock: Sexo, Orégano e Rock'n'Roll",
+        "Author": "Maribelle Sergison",
+        "Publisher": "Flatley-Wisozk",
+        "Price": "$22.08",
+        "Pages": "7",
+        "Availability": "3"
+    },
+    {
+        "Title": "American Tail: Fievel Goes West, An",
+        "Author": "Lacie Hakey",
+        "Publisher": "Hodkiewicz-Ebert",
+        "Price": "$16.17",
+        "Pages": "084",
+        "Availability": "68"
+    },
+    {
+        "Title": "Last of the Unjust, The (Dernier des injustes, Le)",
+        "Author": "Aurora Beams",
+        "Publisher": "Kassulke Group",
+        "Price": "$48.46",
+        "Pages": "13429",
+        "Availability": "37"
+    },
+    {
+        "Title": "Ice Age: Dawn of the Dinosaurs",
+        "Author": "John Kort",
+        "Publisher": "Klocko-Crooks",
+        "Price": "$5.57",
+        "Pages": "073",
+        "Availability": "90436"
+    },
+    {
+        "Title": "Big Boys Gone Bananas!*",
+        "Author": "Corabelle Vlach",
+        "Publisher": "Moen, Funk and Nikolaus",
+        "Price": "$8.46",
+        "Pages": "8251",
+        "Availability": "77"
+    },
+    {
+        "Title": "First Man, The (Le Premier Homme)",
+        "Author": "Standford Cartmer",
+        "Publisher": "Hammes-Reynolds",
+        "Price": "$34.97",
+        "Pages": "4296",
+        "Availability": "54786"
+    },
+    {
+        "Title": "Lady Be Good",
+        "Author": "Sibyl Itzkovsky",
+        "Publisher": "Schmidt Group",
+        "Price": "$49.34",
+        "Pages": "43781",
+        "Availability": "33794"
+    },
+    {
+        "Title": "Child's Play 3",
+        "Author": "Emyle Cannavan",
+        "Publisher": "Walker, Cremin and Wiza",
+        "Price": "$5.26",
+        "Pages": "20239",
+        "Availability": "8689"
+    },
+    {
+        "Title": "Plainsman, The",
+        "Author": "Cybil Botger",
+        "Publisher": "Streich, Spinka and Bernier",
+        "Price": "$48.33",
+        "Pages": "7",
+        "Availability": "8"
+    },
+    {
+        "Title": "Cockpit",
+        "Author": "Sabrina Burkill",
+        "Publisher": "Conn-Kozey",
+        "Price": "$27.77",
+        "Pages": "8",
+        "Availability": "3"
+    },
+    {
+        "Title": "1990: The Bronx Warriors (1990: I guerrieri del Bronx)",
+        "Author": "Willette Gebhardt",
+        "Publisher": "Hansen and Sons",
+        "Price": "$36.58",
+        "Pages": "4639",
+        "Availability": "527"
+    },
+    {
+        "Title": "Still Mine",
+        "Author": "Barby Musso",
+        "Publisher": "McCullough LLC",
+        "Price": "$14.05",
+        "Pages": "1784",
+        "Availability": "149"
+    },
+    {
+        "Title": "Casanova's Big Night",
+        "Author": "Aguistin Widdall",
+        "Publisher": "McKenzie-Dicki",
+        "Price": "$44.76",
+        "Pages": "13",
+        "Availability": "41"
+    },
+    {
+        "Title": "Blondie on a Budget",
+        "Author": "Edith Goodricke",
+        "Publisher": "Moen, Mann and Walter",
+        "Price": "$38.96",
+        "Pages": "5706",
+        "Availability": "83254"
+    },
+    {
+        "Title": "Cousin Bette",
+        "Author": "Phillipe Iamittii",
+        "Publisher": "Doyle and Sons",
+        "Price": "$42.30",
+        "Pages": "7225",
+        "Availability": "5"
+    },
+    {
+        "Title": "The Fountain",
+        "Author": "Clemence Wyeth",
+        "Publisher": "Bruen Group",
+        "Price": "$7.10",
+        "Pages": "17295",
+        "Availability": "01"
+    },
+    {
+        "Title": "Snow Queen",
+        "Author": "Spenser Kinnier",
+        "Publisher": "Schneider-Kiehn",
+        "Price": "$40.91",
+        "Pages": "40",
+        "Availability": "669"
+    },
+    {
+        "Title": "Mystery of the Wax Museum",
+        "Author": "Leanor Wearden",
+        "Publisher": "Green, Larson and Jacobson",
+        "Price": "$28.01",
+        "Pages": "492",
+        "Availability": "2"
+    },
+    {
+        "Title": "Be Kind Rewind",
+        "Author": "Siana Ray",
+        "Publisher": "Witting-Lehner",
+        "Price": "$45.69",
+        "Pages": "12670",
+        "Availability": "47446"
+    },
+    {
+        "Title": "Bey Yaar",
+        "Author": "Dalia Overthrow",
+        "Publisher": "Osinski-Zieme",
+        "Price": "$13.28",
+        "Pages": "9",
+        "Availability": "508"
+    },
+    {
+        "Title": "Promise, The (La promesse)",
+        "Author": "Gnni Peachey",
+        "Publisher": "Stokes, Aufderhar and Terry",
+        "Price": "$32.91",
+        "Pages": "516",
+        "Availability": "10971"
+    },
+    {
+        "Title": "I Hate Christian Laettner",
+        "Author": "Carmine Quade",
+        "Publisher": "Kutch, Reichel and West",
+        "Price": "$46.21",
+        "Pages": "2",
+        "Availability": "83"
+    },
+    {
+        "Title": "Year of the Yao, The",
+        "Author": "Trenna Stopp",
+        "Publisher": "Casper and Sons",
+        "Price": "$49.34",
+        "Pages": "97132",
+        "Availability": "434"
+    },
+    {
+        "Title": "Up in the Wind",
+        "Author": "Aguie Oaker",
+        "Publisher": "Cronin, Metz and Hettinger",
+        "Price": "$36.61",
+        "Pages": "583",
+        "Availability": "36461"
+    },
+    {
+        "Title": "The Great Raid",
+        "Author": "Chrystal Giraudeau",
+        "Publisher": "Braun-Schuppe",
+        "Price": "$23.49",
+        "Pages": "050",
+        "Availability": "79"
+    },
+    {
+        "Title": "Game Change",
+        "Author": "Stacie McAulay",
+        "Publisher": "Wisoky-Moen",
+        "Price": "$19.94",
+        "Pages": "81680",
+        "Availability": "8325"
+    },
+    {
+        "Title": "Good Old Daze (Le péril jeune)",
+        "Author": "Konstance Ladell",
+        "Publisher": "Stamm LLC",
+        "Price": "$35.57",
+        "Pages": "54943",
+        "Availability": "8560"
+    },
+    {
+        "Title": "Wanderlust",
+        "Author": "Stevie Glasspoole",
+        "Publisher": "Zboncak LLC",
+        "Price": "$28.84",
+        "Pages": "8",
+        "Availability": "139"
+    },
+    {
+        "Title": "Crazy People",
+        "Author": "Maurene Grogono",
+        "Publisher": "Jakubowski-Schmidt",
+        "Price": "$7.43",
+        "Pages": "49861",
+        "Availability": "30"
+    },
+    {
+        "Title": "Pinocchio",
+        "Author": "Brietta Chesney",
+        "Publisher": "Gutmann and Sons",
+        "Price": "$11.75",
+        "Pages": "070",
+        "Availability": "16"
+    },
+    {
+        "Title": "3 Holiday Tails (Golden Christmas 2: The Second Tail, A)",
+        "Author": "Adriana O'Hederscoll",
+        "Publisher": "Schulist Group",
+        "Price": "$48.85",
+        "Pages": "2883",
+        "Availability": "95127"
+    },
+    {
+        "Title": "Road to Zanzibar",
+        "Author": "Bethanne Emmer",
+        "Publisher": "Osinski-Witting",
+        "Price": "$8.29",
+        "Pages": "23648",
+        "Availability": "615"
+    },
+    {
+        "Title": "See You Next Tuesday",
+        "Author": "Rad Duesbury",
+        "Publisher": "Sawayn-Considine",
+        "Price": "$28.31",
+        "Pages": "5",
+        "Availability": "70"
+    },
+    {
+        "Title": "Shaolin Temple, The (Shao Lin Si)",
+        "Author": "Bunnie Boakes",
+        "Publisher": "Maggio, Ziemann and Nitzsche",
+        "Price": "$45.08",
+        "Pages": "7936",
+        "Availability": "73"
+    },
+    {
+        "Title": "Tully",
+        "Author": "Harland Nuzzti",
+        "Publisher": "Upton-Lynch",
+        "Price": "$9.09",
+        "Pages": "3",
+        "Availability": "4"
+    },
+    {
+        "Title": "Cruel Intentions 3",
+        "Author": "Toinette Lujan",
+        "Publisher": "Braun-Gerhold",
+        "Price": "$30.73",
+        "Pages": "5043",
+        "Availability": "07551"
+    }
+]
