@@ -9,4 +9,3 @@
 
 - Read Book data and convert it to string:
 	Class Storage, Read Method
-

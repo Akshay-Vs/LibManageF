@@ -5,6 +5,8 @@ using System.Text.Json;
 using Newtonsoft.Json;
 using System.Net.Http;
 using System.Threading.Tasks;
+using System.Collections.Generic;
+using System.Collections.Specialized;
 
 namespace Library_Management_System
 {
@@ -45,32 +47,6 @@ namespace Library_Management_System
         public static void Print(bool val)
         {
             Console.WriteLine(val);
-        }
-    }
-
-    public class Storage
-    {
-        string PathToDir;
-
-        public Storage(string path)
-        {
-            PathToDir = path;
-        }
-
-        public void NewFile(string filename)
-        {
-            //Create New File
-            using (FileStream fs = File.Create(this.PathToDir))
-            {
-                byte[] info = new UTF8Encoding(true).GetBytes("This is the file");
-                fs.Write(info, 0, info.Length);
-            }
-        }
-
-        public string[] Read(string filename)
-        {
-
-            return new[] { "" };
         }
     }
 
@@ -129,28 +105,63 @@ namespace Library_Management_System
 
     public class Book
     {
+        [JsonProperty("Title")]
         public string Title { get; set; }
+
+        [JsonProperty("Author")]
         public string Author { get; set; }
+
+        [JsonProperty("Publisher")]
         public string Publisher { get; set; }
+
+        [JsonProperty("Price")]
         public int Price { get; set; }
+
+        [JsonProperty("Pages")]
         public int Pages { get; set; }
+
+        [JsonProperty("Availability")]
         public int Availability { get; set; }
+
+        private string Url;
+
+        //Constructure
+        public Book() { }
+        public Book(string url)
+        {
+            this.Url = url;
+        }
 
         public void Add(string title, string author, string publisher, int price, int pages, int availability)
         {
-            this.Title = title;
-            this.Author = author;
-            this.Publisher = publisher;
-            this.Price = price;
-            this.Pages = pages;
-            this.Availability = availability;
+            //Append new data to the database
 
-            //Pust New data to server
+            Book newData = new Book()
+            {
+                Title = title,
+                Author = author,
+                Publisher = publisher,
+                Price = price,
+                Pages = pages,
+                Availability = availability
+            };
+
+            string jsonRaw = JsonConvert.SerializeObject(newData, Formatting.None);
+            Console.WriteLine(jsonRaw);
+
+
+            //Pust New data to database
+
         }
 
-        public string Get()
+        public async Task GetList()
         {
-            return ToString();
+            //Print all details about books to console
+            var Response = await this.GetBooks();
+            foreach (var i in Response)
+            {
+                Console.WriteLine($"Title: {i.Title}, Author: {i.Author}, Publisher: {i.Publisher}, Price: {i.Price}, Pages: {i.Pages}, Availability: {i.Availability}");
+            }
         }
 
         public string GetElement(string name)
@@ -165,54 +176,36 @@ namespace Library_Management_System
             else return $"Element {name} is invalid";
         }
 
-        public static async Task<TypeBook[]> GetBooks(string url)
+        public async Task<Book[]> GetBooks()
         {
             HttpClient httpClient = new();
 
-            var httpResponseMessage = await httpClient.GetAsync(url);
+            var httpResponseMessage = await httpClient.GetAsync(this.Url);
             //Read string from the response's content
             string jsonResponse = await httpResponseMessage.Content.ReadAsStringAsync();
             //Console.WriteLine(jsonResponse);
 
             //Deserialize the json Response in to a C# array of type TypeBook
-            TypeBook[] JsonData =  JsonConvert.DeserializeObject<TypeBook[]>(jsonResponse);
+            Book[] JsonData =  JsonConvert.DeserializeObject<Book[]>(jsonResponse);
 
             httpClient.Dispose();
             return JsonData;
 
         }
 
-        public string Formate()
+
+        public async Task<string> Search(string nameOfBook)
         {
-            return " " + ToString().Replace(',', '\n');
+            var Response = await this.GetBooks();
+            foreach(var i in Response)
+            {
+                if (i.Title == nameOfBook)
+                {
+                    return $"Title: {i.Title}, Author: {i.Author}, Publisher: {i.Publisher}, Price: {i.Price}, Pages: {i.Pages}, Availability: {i.Availability}";
+                }
+            }
+            return $"{nameOfBook} is not found";
         }
-
-
-        public override string ToString()
-        {
-            return $"Title:{Title}, Author: {Author}, Publisher: {Publisher}, Price: {Price}, Pages: {Pages}, Availability: {Availability}";
-        }
-
     }
 
-    public class DataStream
-    {
-        public static Book Serialize(string title, string author, string publisher, int price, int pages, int availability)
-        {
-            Book book = new Book();
-            book.Add(title, author, publisher, price, pages, availability);
-            return book;
-        }
-
-        public Book AvailableBooks()
-        {
-            string[] json;
-
-            Storage Database = new Storage(Environment.CurrentDirectory);
-            json = Database.Read($"{Environment.CurrentDirectory}\\Books.txt");
-            return DataStream.Serialize(json[0], json[1], json[2], Int32.Parse(json[3]), Int32.Parse(json[4]), Int32.Parse(json[5]));
-        }
-
-
-    }
 }

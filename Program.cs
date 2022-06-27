@@ -14,15 +14,18 @@ namespace Library_Management_System
 
         static async Task Main(string[] args)
         {
+            var watch = System.Diagnostics.Stopwatch.StartNew(); //Start timer
+
             try
             {
-                Book book = new Book();
-                var Response = await Book.GetBooks(bookURL);
+                Book book = new Book(bookURL);
+                //string name = Input("Enter name of book: ");
+                //Console.WriteLine("Searching...");
+                //Console.WriteLine(await book.Search(name));
 
-                foreach (var i in Response)
-                {
-                    Console.WriteLine($"{i.Title}, {i.Author}, {i.Publisher}, {i.Price}, {i.Pages}, {i.Availability}");
-                }
+                book.Add("Wings of Fire", "APJ Abdul Kalam", "DC Books", 25, 180, 400);
+
+
             }
 
             catch (Exception error)
@@ -30,7 +33,8 @@ namespace Library_Management_System
                 Console.WriteLine(error.Message);
             }
 
-            
+            watch.Stop();
+            Print(watch.ElapsedMilliseconds);
         }
     }
 }
